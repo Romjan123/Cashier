@@ -1,0 +1,344 @@
+
+/* start header section*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#navMenu{
+    background:
+    linear-gradient(#00000075,#00000075),
+    linear-gradient(#00000075,#00000075),
+    url(images/aclt426-pj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    opacity: 1;
+}
+.navigation{
+    width: 100%;
+    border-bottom: 2px solid #001d38;
+}
+.logo{
+    color:orangered;
+    font-size: 49px;
+    line-height:80px;
+    text-transform: uppercase;
+    padding: 0px 100px;
+    font-weight: bold;
+}
+.navBar{
+    font-family: arial black;
+    float: right;
+    list-style: none;
+    padding:5px 30px;
+}
+.navBar li{
+    display: inline-block;
+    line-height: 80px;
+}
+.navBar li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: arial;
+}
+.navBar li a:hover{
+    background: transparent;
+    color: #ffff05;
+    transition:1s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display:none;
+}
+.title {
+    width: 1050px;
+    height: 500px;
+    float: right;
+    line-height: 61px;
+    margin-top:200px;
+
+}
+.title h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+    letter-spacing: 5px;
+    margin-left:180px;
+    width: 500px;
+    font-weight: 400;
+    opacity: 1;
+}
+.title h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(255 255 255);
+    font-size: 45px;
+    margin-left: 100px;
+    font-family: arial black;
+    line-height: 40px;
+}
+.title h1 span{
+    color: orangered;
+    font-family: arial black;
+}
+/*End Header section*/
+
+
+/*start since section*/
+.company{
+    width: 100%;
+    height: 120px;
+    background:#012641;
+    display: flex;
+
+}
+.company h1 {
+    width:700px;
+    text-transform: uppercase;
+    padding: 45px;
+    font-family: arial;
+    font-size: 20px;
+    color:#ffffff;
+}
+
+.company a{
+    position: relative;
+    text-align: center;
+    justify-content: end;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:20px;
+    margin-left: 100px;
+    height: 28px;
+    margin-top: 35px;
+    color:#ff5722;
+    letter-spacing: 1px;
+    overflow: hidden;
+    transition: .5s;
+    font-family: arial;
+
+}
+.company a:nth-child(1){
+    filter: hue-rotate(115deg);
+}
+.company a:focus{
+    color: #111;
+    background:#ff5722;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #ff5722;
+    transition-delay: .5s;
+}
+.company a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ff5722;
+    border-left: 2px solid #ff5722;
+    transition: .5s;
+    transition-delay: 0.5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+
+}
+.company a:focus:before{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0.5s;
+
+}
+.company a:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #ff5722;
+    border-right: 2px solid #ff5722;
+    transition: .5s;
+    transition-delay: 0.5s;
+
+}
+.company a:focus:after{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0.5s;
+}
+
+/*End since section*/
+/* start our services section*/
+#main-heading{
+    background:#ffffff;
+    padding: 30px;
+}
+#main-heading h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid orangered;
+    width: 280px;
+    margin-left: 510px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 3px;
+}
+#allBlock{
+    width: 100%;
+    background:#fffff2; 
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 2px solid olive;
+ }
+ #mainIcon{
+     margin-top:50px;
+ }
+  #allBlock h2 {
+     width: 260px;
+     margin-left: 530px;
+     font-size: 33px;
+     color:#000000;
+     padding:10px;
+     font-weight: bold;
+     text-transform: uppercase;
+     border-bottom: 2px solid#bec700;
+     line-height: 12px;
+     border-radius: 4px;
+     padding-top: 33px;
+ } 
+ .allIcons{
+    background:#d0bbbb85;
+     width:340px;
+     border: 1px solid #d0bbbb85;
+     border-radius: 2px;
+     box-shadow:2px 6px 16px 9px #6d3c3cc2;
+     overflow: hidden;
+     margin-top: 30px;
+     margin-left: 45px;
+     display:inline-block;
+     padding: 20px;
+     animation-name:xoom;
+     animation-duration: 1s;
+     margin-bottom:10px;
+ }
+ .icon{
+   width: 80px;    
+ }
+ .head {
+    width: 240px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+ .icon a{
+     color:#11686be8;
+     font-size: 70px;
+     float:left;
+     margin-top: 40px;
+ }
+ .icon:hover a{
+     color: tomato;
+ }
+ .head h3{
+     text-transform: uppercase;
+     font-family: arial black;
+     margin-bottom: 10px;
+ }
+ .head:hover h3{
+     color:#FF5722;
+ }
+ .head p{
+     text-align:justify;
+ }
+  .allIcons:hover{
+            background:#101720;
+            transform:scale(1.1);
+            transition: all 1s;
+            cursor: pointer;
+            color: white;
+ }
+ @keyframes xoom{
+      from {transform:scale(0.1)}
+      to {transform:scale(1)}
+ }
+ #Block2{
+     width: 350px;
+ } 
+ #allBlock h2 span{
+     color: orangered;
+ }
+ /*End our service section*/
+
+ /* start working tite*/
+ #working-title{
+     background:
+     linear-gradient(#00000095,#00000095), 
+     linear-gradient(#00000095,#00000095),
+     url(images/0db37be446e511e8b9600230307e22f4.jpg);
+     width: 100%;
+     height: 600px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+     position: relative;
+ }
+
+ .head-title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffc107;
+    width:90px;
+    color:#ffffff;
+    margin-left: 50px;
+    font-size: 27px;
+    line-height: 40px;
+    border-radius: 3px;
+    padding-top: 40px;
+    letter-spacing: 2px;
+}
+.head-title span{
+    color: orangered;
+}
+#maximum{
+    width: 1170px;
+}
+.photo {
+        line-height: 40px;
+        position: relative;
+        width: 370px;
+        height: 435px;
+        border: 3px solid#98cacd59;
+        border-radius: 3px;
+        margin-left: 140px;
+        margin-top: 60px;
+ }
+.photo img{
+          width: 100%;
+          height: 100%;
+        
+      }
+.position{
+    position: absolute;
+    top: 395px;
+    left: 75px;
+    width: 230px;
+    height: 100px;
+    text-transform: uppercase;
+    color: #000000;
+}
