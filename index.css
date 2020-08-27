@@ -207,7 +207,7 @@
 }
 #allBlock{
     width: 100%;
-    background:#82827e;
+    background:green;
     overflow: hidden;
     padding-bottom: 10px;
     border-bottom: 2px solid olive;
