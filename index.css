@@ -136,7 +136,7 @@
     color:#ff5722;
     letter-spacing: 1px;
     overflow: hidden;
-    transition: 0.8s;
+    transition: 0.5s;
     font-family: arial;
 
 }
@@ -148,7 +148,7 @@
     background:#ff5722;
     border-radius: 5px;
     box-shadow: 0 0 50px #ff5722;
-    transition-delay: .5s;
+    transition-delay:0.5s;
 }
 .company a:before {
     content: '';
@@ -159,7 +159,7 @@
     height: 10px;
     border-top: 2px solid #ff5722;
     border-left: 2px solid #ff5722;
-    transition: .5s;
+    transition:0.5s;
     transition-delay: 0.5s;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
 
@@ -179,7 +179,7 @@
     height: 10px;
     border-bottom: 2px solid #ff5722;
     border-right: 2px solid #ff5722;
-    transition: .5s;
+    transition: 0.5s;
     transition-delay: 0.5s;
 
 }
