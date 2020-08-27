@@ -110,7 +110,8 @@
     position:relative;
     margin-top:-20px;
     margin-bottom:-20px;
-    border-radius:20px;
+    border-radius:25px;
+
 }
 .company h1 {
     width:585px;
@@ -206,7 +207,7 @@
 }
 #allBlock{
     width: 100%;
-    background:#fffff2; 
+    background:#6b6b57;
     overflow: hidden;
     padding-bottom: 10px;
     border-bottom: 2px solid olive;
