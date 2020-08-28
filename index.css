@@ -331,6 +331,7 @@
 .Banner-Img:hover img{
     box-shadow:4px 13px 10px 3px ;
     transform: scale(1.1);
+    opacity:1;
 }
 .Banner-Img img{
     width: 100%;
@@ -342,6 +343,8 @@
     border-top-left-radius: 25px;
     margin-left: 60px;
     cursor: pointer;
+    opacity:0.5;
+    transition: 1s;
 
 }
 .text{
