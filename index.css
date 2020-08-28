@@ -310,12 +310,12 @@
     box-sizing: border-box;
     font-size:35px;
     color:#ff5722;
-    padding: 35px;
+    box-shadow: 4px 2px 12px 9px #25251f;
+    width: 340px;
     text-transform: uppercase;
 }
 #Banner h1 span{
     color: white;
-    border-bottom: 2px solid #FF5722;
 }
 .main-Banner{
     box-sizing: border-box;
