@@ -291,196 +291,70 @@
      color: orangered;
  }
  /*End our service section*/
+ 
 
  /* start working tite*/
- #working-title{
+ #Banner{
      background:
      linear-gradient(#00000095,#00000095), 
      linear-gradient(#00000095,#00000095),
      url(images/0db37be446e511e8b9600230307e22f4.jpg);
-     width: 100%;
-     height: 600px;
-     background-repeat: no-repeat;
+     height: 670px;
+     background-repeat:no-repeat;
      background-size: cover;
-     opacity: 0.9;
-     position: relative;
- }
-
- .head-title h1 {
-    text-align: center;
-    text-transform: uppercase;
-    border-bottom: 2px solid #ffc107;
-    width:90px;
-    color:#ffffff;
-    margin-left: 50px;
-    font-size: 27px;
-    line-height: 40px;
-    border-radius: 3px;
-    padding-top: 40px;
-    letter-spacing: 2px;
+     padding: 30px;
 }
-.head-title span{
-    color: orangered;
-}
-#maximum{
-    width: 1170px;
-}
-.photo {
-        line-height: 40px;
-        position: relative;
-        width: 370px;
-        height: 435px;
-        border: 3px solid#98cacd59;
-        border-radius: 3px;
-        margin-left: 140px;
-        margin-top: 60px;
- }
-.photo img{
-          width: 100%;
-          height: 100%;
-        
-      }
-.position{
-    position: absolute;
-    top: 395px;
-    left: 75px;
-    width: 230px;
-    height: 100px;
-    text-transform: uppercase;
-   color: #000000;
-}
-/* Start Freature section */
-#Banner{
-    background:
-    linear-gradient(#00000085,#00000085),
-    linear-gradient(#00000085,#00000085),
-     url(images/0db37be446e511e8b9600230307e22f4.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     height:600px;
-     display: block;
-}
-.position{
-    margin-left: 20px;
-}
-.header{
-    line-height: 45px;
+#Banner h1{
+    box-sizing: border-box;
     font-size:35px;
-    color: white;
-    width:346px;
-    letter-spacing: 2px;
+    color:#ff5722;
+    padding: 35px;
     text-transform: uppercase;
-    color: #ff5722;
-    padding:30px;
 }
-.header span{
-    color:white;
-    border-bottom: 3px solid #ff5722;
+#Banner h1 span{
+    color: white;
+    border-bottom: 2px solid #FF5722;
 }
-.Banner-Heading{
-    display:inline-flex;
-    width: 1170px;
-    height: 350px;
-    margin: auto;
+.main-Banner{
+    box-sizing: border-box;
+    display: flex;
+}
+.Banner-Img{
+    width: 350px;
+    height: 500px;
+    margin:30px;
     position: relative;
+
 }
-.Banner-contain{
-    width: 350px;
-    height: 420px;
-    margin:auto;
-    position: absolute;
-    top:50px;
-    padding-left: 50px;
+.Banner-Img:hover img{
+    box-shadow:4px 13px 10px 3px ;
+    transform: scale(1.1);
 }
-.Banner-contain img{
+.Banner-Img img{
     width: 100%;
     height: 100%;
-    border: 2px solid grey;
-    border-bottom-right-radius: 85px;
-    border-top-left-radius: 85px;
+    margin:15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px #3E314A;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-left: 60px;
+    cursor: pointer;
+
 }
-.Banner-contain h2 {
+.text{
+    box-shadow: 4px 13px 10px 3px;
+    font-size: 35px;
     position: absolute;
-    bottom:1px;
-    left:110px;
-    padding: 5px;
-    color: #0d0afb;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    font-family: Arial;
+    top: 460px;
+    left:140px;
     text-transform: uppercase;
     cursor: pointer;
-    transition: 0.8s;
 }
-.Banner-contain1 {
-    width: 350px;
-    height: 420px;
-    margin: auto;
-    position: absolute;
-    top:50px;
-    left:520px;
-}
-.Banner-contain1 img {
-    width: 100%;
-    height: 100%;
-    border: 2px solid grey;
-    border-top-left-radius: 85px;
-    border-bottom-right-radius: 85px;
-}
-.Banner-contain1 h2{
-    position: absolute;
-    bottom:1px;
-    left: 100px;
-    font-family: Arial;
-    text-transform: uppercase;
-    border-top-right-radius:10px;
-    border-bottom-left-radius: 10px;
-    cursor: pointer;
-    padding: 5px;
-    transition: 0.8s;
-}
-.Banner-contain2 {
-    width: 350px;
-    height: 420px;
-    padding-block-end: 20px;
-    margin: auto;
-    position: absolute;
-    top:50px;
-    right:-150px;
-}
-.Banner-contain2 img {
-    width: 100%;
-    height: 100%;
-    border: 2px solid grey;
-    border-top-left-radius: 85px;
-    border-bottom-right-radius: 85px;
-}
-.Banner-contain2 h2{
-    position: absolute;
-    bottom:22px;
-    left:100px;
-    font-family: Arial;
-    text-transform: uppercase;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    cursor: pointer;
-    padding: 5px;
-    transition:0.8s;
-    color: #009688;
-}
-.Banner-contain2 h2:hover {
-    background: #0d0afb;
+.text:hover{
+    background: #150e17;
     color: white;
-    transform: scale(1.2);
+    border-radius: 5px;
+    padding: 5px;
 }
-.Banner-contain h2:hover {
-    background: tomato;
-    transform: scale(1.2);
-    color: #000;
-}
-.Banner-contain1 h2:hover {
-  background: turquoise;
-  transform: scale(1.2);
-  color:rebeccapurple;
-}
-/*End freature section */
+ /*End working tite*/
