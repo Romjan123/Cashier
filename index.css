@@ -27,6 +27,7 @@
     text-transform: uppercase;
     padding: 0px 100px;
     font-weight: bold;
+    text-shadow: 4px 4px 2px #0c0f10;
 }
 .navBar{
     font-family: arial black;
