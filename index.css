@@ -234,31 +234,33 @@
  } 
  .allIcons{
     background:#d0bbbb85;
-     width:340px;
-     border: 1px solid #d0bbbb85;
-     border-radius: 2px;
-     box-shadow:2px 6px 16px 9px #6d3c3cc2;
-     overflow: hidden;
-     margin-top: 30px;
-     margin-left: 45px;
-     display:inline-block;
-     padding: 20px;
-     animation-name:xoom;
-     animation-duration: 1s;
-     margin-bottom:10px;
+    width: 395px;
+    border: 1px solid #d0bbbb85;
+    border-radius: 2px;
+    box-shadow:2px 6px 16px 9px #6d3c3cc2;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 22px;
+    display:inline-block;
+    padding: 12px;
+    animation-name:xoom;
+    animation-duration: 1s;
+    margin-bottom: 5px;
  }
  .icon{
-   width: 80px;    
+   width: 45px;
  }
  .head {
-    width: 240px;
+    width: 282px;
     float: right;
     margin-top: 0px;
-    margin-right: 20px;
+    margin-right: 46px;
+    /* display: flex; */
+    height: 176px;
 }
  .icon a{
      color:#11686be8;
-     font-size: 70px;
+     font-size: 58px;
      float:left;
      margin-top: 40px;
  }
@@ -275,6 +277,8 @@
  }
  .head p{
      text-align:justify;
+     text-transform: capitalize;
+     width: 300px;
  }
   .allIcons:hover{
             background:#101720;
