@@ -271,9 +271,11 @@
      text-transform: uppercase;
      font-family: arial black;
      margin-bottom: 10px;
+     text-align:center;
  }
  .head:hover h3{
      color:#FF5722;
+     text-align:start;
  }
  .head p{
      text-align:justify;
