@@ -426,6 +426,76 @@
 span {
     color: #FF5722;
 }
+#important{
+	display:inline-block;
+}
+.mission {
+    margin: 10px;
+    width: 640px;
+    background: white;
+    height:470px;
+    line-height: 65px;
+    margin-left: 80px;
+}
+.mission h3{
+	margin-left: 125px;
+    font-size: 20px;
+}
+.FAQ {
+    color: blue;
+    font-size: 35px;
+    padding: 30px;
+	font-weight: bold;
+}.table {
+    display: inline-block;
+    width: 370px;
+    position: absolute;
+    top: 342px;
+    left: 900px;
+    background: #1A1364;
+    height:470px;
+}
+.table h2{
+   text-align:center;
+       color: white;
+    font-size: 31px;
+    padding: 20px;
+}
+.from{
+	padding:10px;
+}
+.name {
+    padding: 8px;
+    padding-right: 80px;
+    margin-left: 40px;
+    line-height: 10px;
+}
+.email{
+	padding: 8px;
+    padding-right: 80px;
+    margin-left: 40px;
+    line-height: 10px;
+	margin-top:15px;
+}
+.Comment{
+     padding:5px;
+	 margin: 10px;
+    margin-left: 42px;
+}
+.submit {
+    margin-left: 105px;
+    padding: 12px 30px;
+    border: 1px solid;
+    background: #bf3e15;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+	transition: all 0.8s;
+}
+.submit:hover{
+	background:transparent;
+	transform:scale(.8);
+}
  /*End clint section*/
 
 /* start foter section*/
