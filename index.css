@@ -417,9 +417,9 @@
 .contract{
     position: absolute;
     top:55px;
-    left:1020px;
-    line-height: 40px;
-    width:400px;
+    left:950px;
+    line-height: 30px;
+    width:380px;
 }
 .contract h3{
     text-transform: uppercase;
