@@ -337,6 +337,7 @@
 .Banner-Img:hover img{
     box-shadow:4px 13px 10px 3px ;
     transform: scale(1.1);
+    opacity: 1;
 }
 .Banner-Img img{
     width: 100%;
@@ -348,6 +349,7 @@
     border-top-left-radius: 25px;
     margin-left: 60px;
     cursor: pointer;
+    opacity:0.7;
 
 }
 .text{
@@ -366,6 +368,66 @@
     padding: 5px;
 }
  /*End working tite*/
+/*start clint section*/
+#allContaint{
+	width:1140px;
+	margin:auto;
+	height:180px;
+}
+
+#Clint{
+	width:100%;
+     background:#dcdcdc;
+	 height:700px;
+}
+#Clint h1 {
+    text-align: center;
+    width: 665px;
+    font-size: 35px;
+    margin: auto;
+    font-weight: bold;
+    padding: 35px;
+	color: #ff5722;
+}
+.headLine {
+    width: 315px;
+    margin: 31px;
+    height: 120px;
+    line-height:20px;
+	display: inline-block;
+}
+.images img {
+    width: 150px;
+    position:relative;
+    height: 120px;
+	box-shadow: 5px 5px 28px 20px grey;
+	border-radius:5px;
+	transition: 1s;
+    opacity: 0.7;
+}
+.images:hover img{
+	transform: scale(1.2);
+	opacity: 1;
+}
+.headLine h2{
+	position:absolute;
+	top: 215px;
+	left:300px;
+	text-transform:uppercase;
+	font-size: 18px;
+}
+.headLine h3{
+	position:absolute;
+	top: 240px;
+	left:300px;
+	text-transform:capitalize;
+	font-size: 17px;
+}
+span {
+    color: #FF5722;
+}
+ /*End clint section*/
+
 /* start foter section*/
 #foter-Section{
     width: 100%;
