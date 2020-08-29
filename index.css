@@ -22,12 +22,13 @@
 }
 .logo{
     color:orangered;
-    font-size: 49px;
+    font-size: 35px;
     line-height:80px;
     text-transform: uppercase;
     padding: 0px 100px;
     font-weight: bold;
     text-shadow: 4px 4px 2px #0c0f10;
+    font-style: oblique;
 }
 .navBar{
     font-family: arial black;
