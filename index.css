@@ -363,7 +363,7 @@
 /* start foter section*/
 #foter-Section{
     width: 100%;
-    height:500px;
+    height:400px;
     background: #1a1a1a;
     position: relative;
 }
@@ -431,7 +431,7 @@
 }
 .contract h4{
     color: wheat;
-    line-height:150px;
+    line-height:115px;
     font-size:22px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -440,8 +440,8 @@
 .contract h5{
     font-size: 15px;
     color: wheat;
-    top: 122px;
-    left: 85px;
+    top:95px;
+    left:90px;
     letter-spacing: 2px;
     position: absolute;
 }
