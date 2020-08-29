@@ -296,7 +296,7 @@
  
 
  /* start working tite*/
- #Banner{
+  #Banner{
      background:
      linear-gradient(#00000095,#00000095), 
      linear-gradient(#00000095,#00000095),
@@ -310,12 +310,12 @@
     box-sizing: border-box;
     font-size:35px;
     color:#ff5722;
-    box-shadow: 4px 2px 12px 9px #25251f;
-    width: 340px;
+    padding: 35px;
     text-transform: uppercase;
 }
 #Banner h1 span{
     color: white;
+    border-bottom: 2px solid #FF5722;
 }
 .main-Banner{
     box-sizing: border-box;
@@ -331,7 +331,6 @@
 .Banner-Img:hover img{
     box-shadow:4px 13px 10px 3px ;
     transform: scale(1.1);
-    opacity:1;
 }
 .Banner-Img img{
     width: 100%;
@@ -343,8 +342,6 @@
     border-top-left-radius: 25px;
     margin-left: 60px;
     cursor: pointer;
-    opacity:0.5;
-    transition: 1s;
 
 }
 .text{
