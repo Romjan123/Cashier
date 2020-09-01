@@ -410,14 +410,14 @@ cursor: pointer;
  
 
  /* start working tite*/
-  #Banner{
+  #banner{
      background: #191414;
      height: 670px;
      background-repeat:no-repeat;
      background-size: cover;
      padding: 30px;
 }
-#Banner h1{
+#banner h1{
     box-sizing: border-box;
     font-size:35px;
     color:#ff5722;
@@ -425,7 +425,7 @@ cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 15px;
 }
-#Banner h1 span{
+#banner h1 span{
     color: white;
     border-bottom: 2px solid #FF5722;
 }
@@ -433,19 +433,19 @@ cursor: pointer;
     box-sizing: border-box;
     display: flex;
 }
-.Banner-Img{
+.banner-Img{
     width: 350px;
-    height: 500px;
+    height:400px;
     margin:30px;
     position: relative;
 
 }
-.Banner-Img:hover img{
+.banner-Img:hover img{
     box-shadow:4px 13px 10px 3px ;
     transform: scale(1.1);
     opacity: 1;
 }
-.Banner-Img img{
+.banner-Img img{
     width:85%;
     height:108%;
     margin:15px;
@@ -466,7 +466,7 @@ cursor: pointer;
     font-size: 25px;
     color:white;
     position: absolute;
-    top:522px;
+    top:405px;
     left:154px;
     text-transform: uppercase;
     cursor: pointer;
