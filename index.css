@@ -1,106 +1,214 @@
-
 /* start header section*/
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
-}
-#navMenu{
-    background:
-    linear-gradient(#00000075,#00000075),
-    linear-gradient(#00000075,#00000075),
-    url(images/aclt426-pj.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-    opacity: 1;
-}
-.navigation{
-    width: 100%;
-    border-bottom: 2px solid #001d38;
-}
-.logo{
-    color:#fff0a4;
-    font-size: 35px;
-    line-height:80px;
-    text-transform: uppercase;
-    padding: 0px 100px;
-    font-weight: bold;
-    text-shadow: 4px 4px 2px #0c0f10;
-    font-style: oblique;
-}
-.navBar{
-    font-family: arial black;
-    float: right;
+    box-sizing:border-box;
+    text-decoration: none;
     list-style: none;
-    padding:5px 30px;
 }
-.navBar li{
+#Navigation{
+    background:#072640;
+    height: 80px;
+    width: 100%;
+}
+.logo {
+    color:#050c03;
+    font-size:60px;
+    padding: 0 100px;
+    line-height: 65px;
+    font-family: 'Dancing Script', cursive;
+}
+.logo span{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+.logo span:nth-child(1){
+    animation-delay: 0s;
+}
+.logo span:nth-child(2){
+    animation-delay:.25s;
+}
+.logo span:nth-child(3){
+    animation-delay: .50s;
+}
+.logo span:nth-child(4){
+    animation-delay:0.75s;
+}
+.logo span:nth-child(5){
+    animation-delay:1s;
+}
+.logo span:nth-child(6){
+    animation-delay:1.25s;
+}
+.logo span:nth-child(7){
+    animation-delay:1.50s;
+}
+.logo span:nth-child(8){
+    animation-delay:1.75s;
+}
+.logo span:nth-child(9){
+    animation-delay:2s;
+}
+.logo span:nth-child(10){
+    animation-delay:2.25s;
+}
+.logo span:nth-child(11){
+    animation-delay:2.50s;
+}
+.logo span:nth-child(12){
+    animation-delay:2.75s;
+}
+.logo span:nth-child(13){
+    animation-delay:3s;
+}
+.logo span:nth-child(14){
+    animation-delay:3.25s;
+}
+.logo span:nth-child(15){
+    animation-delay: 3.50s;
+}
+.logo span:nth-child(16){
+    animation-delay: 3.75s;
+}
+@keyframes animate{
+    0%,100%{
+        color: #fff;
+        filter:blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+                    0 0 20px #00b3ff,
+                    0 0 40px #00b3ff,
+                    0 0 80px #00b3ff,
+                    0 0 120px #00b3ff,
+                    0 0 200px #00b3ff,
+                    0 0 300px #00b3ff,
+                    0 0 400px #00b3ff;
+    }
+    5%,95%{
+        color: #111;
+        filter: blur(0px);
+        text-shadow:none;
+    }
+}
+
+#NavBar ul{
+    float: right;
+    margin-right: 20px;
+}
+#NavBar ul li{
     display: inline-block;
     line-height: 80px;
+    margin: 0 5px;
 }
-.navBar li a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 10px 20px;
+#NavBar ul li a{
+    font-size: 20px;
+    color:white;
     text-transform: uppercase;
-    font-family: arial;
+    padding: 7px 13px;
 }
-.navBar li a:hover{
-    background: transparent;
-    color: #ffff05;
-    transition:1s;
+#NavBar ul li a.active,#NavBar ul li a:hover{
+    color:hsl(14deg 100% 50%);
+    transition: .8s;  
 }
 .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+font-size: 30px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
 }
 #check{
-    display:none;
+    display: none;
 }
-.title {
-    width: 1050px;
-    height: 500px;
-    float: right;
-    line-height: 61px;
-    margin-top:200px;
+@media screen and (max-width:952px){
+    .logo{
+        font-size: 25px;
+        padding-left: 30px;
+    }
+    #NavBar ul li a{
+        font-size: 17px;
 
+    }
 }
-.title h3 {
+@media screen and (max-width:752px){
+    .checkbtn{
+        display: block;
+    }
+    .logo{
+        font-size:41px;
+        padding-left:45px;
+
+    }
+    #NavBar ul{
+        position: fixed;
+        width: 100%;
+        height: 100hv;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+       
+    }
+    #NavBar ul li{
+        display: block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+    #NavBar ul li a{
+        font-size: 20px;
+    }
+    #NavBar ul li a.active,#NavBar ul li a:hover{
+        color:#0082e6;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+}
+#Banner{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    background:
+    linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+     url(images/aclt426-pj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    position: absolute;
+    left:320px;
+    width:60%;
+    text-align: center;
+    margin: 160px auto 0;
+    color:black;
+    line-height:70px;
+}
+.content h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family:'Asap Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: #afafaf;
+}
+.content h1{
+    color: #80735c;
     text-transform: uppercase;
-    font-size: 20px;
-    color: white;
-    font-family: arial;
-    letter-spacing: 5px;
-    margin-left:180px;
-    width: 500px;
-    font-weight: 400;
-    opacity: 1;
+    font-size:50px;
+    font-family:  'Playball', cursive;
+    letter-spacing:18px;
 }
-.title h1 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: rgb(255 255 255);
-    font-size: 45px;
-    margin-left: 100px;
-    font-family: arial black;
-    line-height: 40px;
-}
-.title h1 span{
+.content h1 span{
     color: orangered;
-    font-family: arial black;
 }
+
 /*End Header section*/
-
-
 /*start since section*/
 .company{
     width:950px;
