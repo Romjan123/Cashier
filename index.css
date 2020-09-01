@@ -552,23 +552,24 @@ span {
 }
 .mission h3{
 	margin-left: 125px;
-    font-size: 20px;
+        font-size: 20px;
 }
 .FAQ {
     color: blue;
     font-size: 35px;
     padding: 30px;
-	font-weight: bold;
-}.table {
+    font-weight: bold;
+}
+.table {
     display: inline-block;
     width: 370px;
     position: absolute;
-    top: 2050px;
+    top:50px;
     left: 900px;
     background: #1A1364;
     height:470px;
 }
-.table h2{
+.from h2{
    text-align:center;
        color: white;
     font-size: 31px;
