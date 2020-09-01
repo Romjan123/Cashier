@@ -226,7 +226,7 @@ cursor: pointer;
 
 }
 .company h1 {
-    width:602px;
+    width:650px;
     text-transform: uppercase;
     padding: 45px 30px;
     font-family: arial;
@@ -328,8 +328,8 @@ cursor: pointer;
      margin-top:50px;
  }
   #allBlock h2 {
-     width: 265px;
-     margin-left: 530px;
+     width: 290px;
+     margin-left:515px;
      font-size: 33px;
      color:#000000;
      padding:10px;
