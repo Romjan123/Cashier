@@ -412,7 +412,7 @@ cursor: pointer;
  /* start working tite*/
   #banner{
      background: #191414;
-     height: 670px;
+     height: 720px;
      background-repeat:no-repeat;
      background-size: cover;
      padding: 30px;
@@ -421,7 +421,7 @@ cursor: pointer;
     box-sizing: border-box;
     font-size:35px;
     color:#ff5722;
-    padding: 35px;
+    padding:10px;
     text-transform: uppercase;
     letter-spacing: 15px;
 }
@@ -434,8 +434,8 @@ cursor: pointer;
     display: flex;
 }
 .banner-Img{
-    width: 350px;
-    height:400px;
+    width: 345px;
+    height:470px;
     margin:30px;
     position: relative;
 
@@ -466,10 +466,11 @@ cursor: pointer;
     font-size: 25px;
     color:white;
     position: absolute;
-    top:405px;
+    top:480px;
     left:154px;
     text-transform: uppercase;
     cursor: pointer;
+    border-bottom: 5px solid #ff8a00;
     transition: 1s;
 }
 }
